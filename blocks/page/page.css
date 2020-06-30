@@ -8,24 +8,20 @@
 }
 
 .page {
-  background-color: #2A2C2F;
+  background-color: #2A2C2F;   /*.page is a <div> and <div> have display:block by default */
   color: white;
   font-family: 'Inter', sans-serif, Arial;
+  margin: 0 auto;   /* this ensures that all content is centered on screens wider than 1600px */
+  max-width: 1600px;
 }
 
 
 /*
 .page {
-  display: block;
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */ /*
-  max-width: 1600px;
-  /* here we've set a maximum page width */ /*
-  margin: 0 auto;
-  /* this ensures that all content is centered on screens wider than 1600px *//*
-  font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-  */
+*/
 
 
