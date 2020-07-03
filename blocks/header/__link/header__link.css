@@ -7,4 +7,6 @@
   line-height: 1.17;
 }
 
-
+.header__link:hover {
+  opacity: 0.5;
+}

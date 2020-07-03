@@ -6,7 +6,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  width: 76vw;
+  padding-top: 34px;
+  max-width: 984px;
   border: red solid;
+  margin: 0 auto;
 }
