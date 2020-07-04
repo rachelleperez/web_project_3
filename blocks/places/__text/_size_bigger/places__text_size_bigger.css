@@ -1,0 +1,32 @@
+.places__text_size_bigger {
+  font-style: normal;
+  font-size: 18px; 
+  line-height: 1.62;
+}
+
+/* Smartphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .places__text_size_bigger {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+  .places__text_size_bigger {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+
+
+/* Desktop ;arge */
+@media only screen and (min-width : 1280px) {
+  .places__text_size_bigger {
+    line-height: 1.67;
+  }
+}
+  

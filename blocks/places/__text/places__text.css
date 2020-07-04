@@ -1,5 +1,16 @@
+@import url(./_size_bigger/places__text_size_bigger.css);
+
 .places__text {
   font-size: 16px;
   line-height: 1.62;
   word-wrap: break-word;
 }
+
+
+/* Desktop ;arge */
+@media only screen and (min-width : 1280px) {
+  .places__text {
+    line-height: 1.67;
+  }
+}
+  
