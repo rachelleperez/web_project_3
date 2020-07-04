@@ -1,6 +1,11 @@
 @import url("./_lang_english/header__link_lang_english.css");
 @import url("./_lang_non-english/header__link_lang_non-english.css");
 
+
+ul {
+  list-style: none;
+}
+
 .header__link {
   color: white;
   font-size: 24px;
