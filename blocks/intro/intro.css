@@ -2,6 +2,7 @@
 @import url(./__title/intro__title.css);
 @import url(./__subtitle/intro__subtitle.css);
 @import url(./__text/intro__text.css);
+@import url(./__text2/intro__text2.css);
 
 .intro {
   margin: 0 auto;

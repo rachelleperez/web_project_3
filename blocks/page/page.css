@@ -17,12 +17,25 @@
 }
 
 
-/*
-.page {
-  min-width: 1100px;
-  /* we don't know how to make mobile versions of websites yet, */
-  /* so here we've set a minimum page width */ /*
+/* Smartphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  }
 }
-*/
+
+  /* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+  /* Styles */
+}
+
+/* Desktop common */
+@media only screen and (min-width : 1024px) and (max-width : 1279px) {
+  /* Styles */
+}
+  
+/* Desktop ;arge */
+@media only screen and (min-width : 1280px) {
+  /* Styles */
+}
+  
 
 

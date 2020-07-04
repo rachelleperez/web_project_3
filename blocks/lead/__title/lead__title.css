@@ -18,29 +18,9 @@
   } */
 
 /* Smartphone */
-@media only screen and (min-device-width : 320px) and (max-device-width : 479px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
   .lead__title {
     font-size: 40px;
   }
 }
 
-/* Smartphone 2 */
-@media only screen and (min-device-width : 480px) and (max-device-width : 767px) {
-  /* Styles */
-}
-
-  /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-  /* Styles */
-}
-
-/* Desktop common */
-@media only screen and (min-width : 1024px) and (max-width : 1279px) {
-  /* Styles */
-}
-  
-/* Desktop ;arge */
-@media only screen and (min-width : 1280px) {
-  /* Styles */
-}
-  
