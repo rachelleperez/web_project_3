@@ -11,5 +11,6 @@
   margin: 0 auto;
   max-width: 1184px;
   height: 740px;
-  background-image: url(./../../images/cover2.jpg)
+  background-image: url(./../../images/cover2.jpg);
+  margin-bottom: 92px;
 }
