@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Inter-Bold';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./../../../../styles/Fonts/Inter/Inter-Bold.woff2") format("woff2"),
+       url("./../../../../styles/Fonts/Inter/Inter-BoldItalic.woff") format("woff");
+}
+
+.intro__text_weight_bold {
+  font-family: Inter-Bold;
+  font-style: normal;
+}

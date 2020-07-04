@@ -1,0 +1,10 @@
+@import url(./__container/intro__container.css);
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__text/intro__text.css);
+
+.intro {
+  margin: 0 auto;
+  border: purple solid;
+  max-width: 984px;  
+}
