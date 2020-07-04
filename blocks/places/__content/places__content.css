@@ -4,7 +4,6 @@
   grid-template-columns: auto auto;
   grid-column-gap: 40px;
   grid-row-gap: 48px;
-  border: yellow solid;
   margin: 0;
   margin-bottom: 80px;
 }
