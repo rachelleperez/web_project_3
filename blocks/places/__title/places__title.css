@@ -10,6 +10,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
   .places__title {
     font-size: 32px;
+    margin-left: 16px;
   }
 }
 

@@ -1,4 +1,14 @@
 .header__logo {
   height: 44px;
   width: 190px;
+  margin-left: 16px;
+}
+
+/* Smartphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .header__logo {
+    height: 36px;
+    width: 156px;
+  }
+  
 }

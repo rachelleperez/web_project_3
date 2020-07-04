@@ -13,4 +13,11 @@
     line-height: 1.67;
   }
 }
-  
+
+/* Smartphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .places__text {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
