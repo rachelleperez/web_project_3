@@ -1,0 +1,11 @@
+.places__content {  
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1f 6f;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  border: yellow solid;
+  margin: 0;
+  margin-bottom: 80px;
+}

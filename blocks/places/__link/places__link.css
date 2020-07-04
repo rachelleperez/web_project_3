@@ -1,0 +1,8 @@
+.places__link {
+  color:#FFFFFF;
+  letter-spacing: 0;
+}
+
+.places__link:hover {
+  opacity: 0.5;
+}
