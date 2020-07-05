@@ -1,3 +1,43 @@
+.cover__link {
+  min-height: 740px;
+  display: block;
+  background-image: url("./../../../images/cover-route-66.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+
+}
+
 .cover__link:hover {
   opacity: 0.5;
+}
+
+/* Smartphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+  .cover__link {
+    min-height: 200px;
+  }
+
+}
+
+/* Smartphone */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+  .cover__link {
+    min-height: 480px;
+  }
+
+}
+
+/* Smartphone */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1279px) {
+  .cover__link {
+    min-height: 640px;
+  }
+
 }
