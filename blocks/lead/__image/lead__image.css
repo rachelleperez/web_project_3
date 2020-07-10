@@ -1,4 +1,27 @@
 .lead__image {
   width: 100%;
   margin-top: 64px;
+  min-height: 615px;
+}
+
+
+/* Desktop common */
+@media only screen and (min-width : 1024px) and (max-width : 1279px) {
+  .lead__image {
+    min-height: 580px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+  .lead__image {
+    min-height: 480px;
+  }
+}
+
+/* Smartphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+.lead__image {
+  min-height: 200px;
+}
 }
