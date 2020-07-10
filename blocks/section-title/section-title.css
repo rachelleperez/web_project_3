@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Inter-Super-Bold';
-  font-style:  italic;
+  font-style:  normal;
   font-weight: 900;
   font-display: swap;
-  src: url("./../../styles/Fonts/Inter/Inter-Black.woff2") format("woff2"),
-       url("./../../styles/Fonts/Inter/Inter-Black.woff") format("woff");
+  src: url(./../../styles/Fonts/Inter/Inter-Black.woff2) format("woff2"),
+       url(./../../styles/Fonts/Inter/Inter-Black.woff2) format("woff");
 }
 
 .section-title {
