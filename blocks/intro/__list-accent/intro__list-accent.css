@@ -1,13 +1,7 @@
-@font-face {
-  font-family: 'Inter-Bold';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("./../../../styles/Fonts/Inter/Inter-Bold.woff2") format("woff2"),
-       url("./../../../styles/Fonts/Inter/Inter-BoldItalic.woff") format("woff");
-}
+@import url(./../../../vendor/fonts/inter/inter.css);
 
 .intro__list-accent {
-  font-family: Inter-Bold;
+  font-family: Inter;
   font-style: normal;
+  font-weight: 700
 }

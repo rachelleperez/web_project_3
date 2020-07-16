@@ -1,45 +1,17 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("./../../styles/Fonts/Inter/Inter-Regular.woff2") format("woff2"),
-       url("./../../styles/Fonts/Inter/Inter-Regular.woff") format("woff");
-}
+@import url(./../../vendor/fonts/inter/inter.css);
 
 .page {
   background-color: #2A2C2F;   /*.page is a <div> and <div> have display:block by default */
   color: white;
-  font-family: 'Inter', sans-serif, Arial;
+  font-family: 'Inter', arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   margin: 0 auto; 
   width: 100vw;
-  max-width: 1184px;
+  max-width: 1280px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
-
-
-/* Smartphone */
-@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
-
-}
-
-  /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
-  /* Styles */
-}
-
-/* Desktop common */
-@media only screen and (min-width : 1024px) and (max-width : 1279px) {
-  /* Styles */
-}
-  
-/* Desktop Large */
-@media only screen and (min-width : 1280px) {
-  /* Styles */
-}
-  
-
