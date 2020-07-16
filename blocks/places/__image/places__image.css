@@ -4,3 +4,9 @@
 }
 
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 1024px) and (max-width : 1279px) {
+  .places__image {
+    max-width: 440px;
+  }
+}
