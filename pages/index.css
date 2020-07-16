@@ -1,4 +1,5 @@
 @import url('../styles/normalize.css');
+@import url('../vendor/fonts/inter/inter.css');
 
 /* Multipurpose */
 @import url('/../blocks/section-title/section-title.css');
