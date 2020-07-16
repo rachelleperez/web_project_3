@@ -4,8 +4,7 @@
   font-size: 96px;
   line-height: 1.04;
   margin: 0 auto;
-  margin-left: 280px;
-  margin-right: 280px;
+  left: 280px;
   margin-top: 50px;
 
 }
@@ -13,16 +12,14 @@
 /* Desktop common */
 @media only screen and (min-width : 1024px) and (max-width : 1279px) {
   .lead__title {
-    margin-left: 152px;
-    margin-right: 152px;
+    left: 152px;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
   .lead__title {
-    margin-left: 24px;
-    margin-right: 24px;
+    left: 24px;
   }
 }
 
@@ -34,8 +31,7 @@
     font-size: 40px;
     min-width: 288px;
     min-height: 88px;
-    margin-left: 16px;
-    margin-right: 16px;
+    left: 16px;
   }
 }
 
