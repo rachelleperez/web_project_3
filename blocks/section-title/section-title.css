@@ -1,14 +1,9 @@
-@font-face {
-  font-family: 'Inter-Super-Bold';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url(./../../styles/Fonts/Inter/Inter-Black.woff2) format("woff2"),
-       url(./../../styles/Fonts/Inter/Inter-Black.woff2) format("woff");
-}
+@import url(./../../vendor/fonts/inter/inter.css);
 
 .section-title {
-  font-family: Inter-Super-Bold;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
   margin-top: 58px;
   margin-bottom: 0;
 }
