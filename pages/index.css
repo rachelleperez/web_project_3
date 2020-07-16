@@ -1,18 +1,18 @@
-@import url(../styles/normalize.css);
+@import url('../styles/normalize.css');
 
 /* Multipurpose */
-@import url(./../blocks/section-title/section-title.css);
-@import url(./../blocks/section-subtitle/section-subtitle.css);
+@import url('/../blocks/section-title/section-title.css');
+@import url('/../blocks/section-subtitle/section-subtitle.css');
 
 /* By section */
-@import url(./../blocks/page/page.css);
-@import url(./../blocks/header/header.css);
-@import url(./../blocks/lead/lead.css);
-@import url(./../blocks/intro/intro.css);
-@import url(./../blocks/photo-grid/photo-grid.css);
-@import url(./../blocks/places/places.css);
-@import url(./../blocks/cover/cover.css);
-@import url(./../blocks/footer/footer.css);
+@import url('./../blocks/page/page.css');
+@import url('./../blocks/header/header.css');
+@import url('./../blocks/lead/lead.css');
+@import url('./../blocks/intro/intro.css');
+@import url('./../blocks/photo-grid/photo-grid.css');
+@import url('./../blocks/places/places.css');
+@import url('./../blocks/cover/cover.css');
+@import url('./../blocks/footer/footer.css');
 
 
 
