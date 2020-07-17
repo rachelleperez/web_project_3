@@ -1,7 +1,7 @@
 @import url(./../../../vendor/fonts/inter/inter.css);
 
 .intro__list-accent {
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 700
 }
