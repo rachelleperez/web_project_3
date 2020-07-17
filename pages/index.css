@@ -6,6 +6,7 @@
 @import url('/../blocks/section-subtitle/section-subtitle.css');
 
 /* By section */
+@import url('./../blocks/body/body.css');
 @import url('./../blocks/page/page.css');
 @import url('./../blocks/header/header.css');
 @import url('./../blocks/lead/lead.css');
@@ -14,7 +15,6 @@
 @import url('./../blocks/places/places.css');
 @import url('./../blocks/cover/cover.css');
 @import url('./../blocks/footer/footer.css');
-
 
 
 
